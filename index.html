@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+
+<html class="dark" lang="es"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Don Peñolinni | Algo extraordinario está por venir</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    "colors": {
+                        "surface-container-high": "#2c292a",
+                        "tertiary-fixed": "#ffdcc3",
+                        "surface-container": "#211f20",
+                        "on-error": "#690005",
+                        "on-primary": "#422c00",
+                        "outline-variant": "#504534",
+                        "error-container": "#93000a",
+                        "secondary": "#ffb4a8",
+                        "on-background": "#e7e1e2",
+                        "primary-fixed-dim": "#febb31",
+                        "on-tertiary-container": "#6c4627",
+                        "surface-bright": "#3b3839",
+                        "tertiary": "#ffd4b6",
+                        "on-tertiary-fixed-variant": "#633e20",
+                        "surface": "#151314",
+                        "on-tertiary": "#49290c",
+                        "secondary-fixed-dim": "#ffb4a8",
+                        "surface-dim": "#151314",
+                        "secondary-container": "#940f08",
+                        "surface-container-low": "#1d1b1c",
+                        "on-secondary": "#690000",
+                        "error": "#ffb4ab",
+                        "surface-tint": "#febb31",
+                        "surface-container-highest": "#373435",
+                        "surface-variant": "#373435",
+                        "secondary-fixed": "#ffdad4",
+                        "outline": "#9d8f7a",
+                        "inverse-surface": "#e7e1e2",
+                        "inverse-primary": "#7d5800",
+                        "on-secondary-fixed-variant": "#900c06",
+                        "on-secondary-container": "#ff9f90",
+                        "on-surface-variant": "#d5c4ad",
+                        "on-tertiary-fixed": "#2f1500",
+                        "tertiary-fixed-dim": "#f1bc94",
+                        "on-secondary-fixed": "#410000",
+                        "on-primary-fixed-variant": "#5f4100",
+                        "on-primary-container": "#684900",
+                        "on-surface": "#e7e1e2",
+                        "background": "#151314",
+                        "tertiary-container": "#ebb68f",
+                        "inverse-on-surface": "#323031",
+                        "on-error-container": "#ffdad6",
+                        "surface-container-lowest": "#0f0e0f",
+                        "primary-fixed": "#ffdea9",
+                        "primary-container": "#f7b52b",
+                        "primary": "#ffd794",
+                        "on-primary-fixed": "#271900"
+                    },
+                    "borderRadius": {
+                        "DEFAULT": "0.125rem",
+                        "lg": "0.25rem",
+                        "xl": "0.5rem",
+                        "full": "0.75rem"
+                    },
+                    "spacing": {
+                        "unit": "8px",
+                        "gutter": "24px",
+                        "margin-desktop": "64px",
+                        "container-max": "1280px",
+                        "margin-mobile": "20px"
+                    },
+                    "fontFamily": {
+                        "display-lg": ["Poppins"],
+                        "body-lg": ["Poppins"],
+                        "body-md": ["Poppins"],
+                        "headline-md": ["Poppins"],
+                        "headline-lg": ["Poppins"],
+                        "label-lg": ["Poppins"],
+                        "label-sm": ["Poppins"],
+                        "display-lg-mobile": ["Poppins"]
+                    },
+                    "fontSize": {
+                        "display-lg": ["56px", { "lineHeight": "1.1", "letterSpacing": "-0.02em", "fontWeight": "700" }],
+                        "body-lg": ["18px", { "lineHeight": "1.6", "fontWeight": "400" }],
+                        "body-md": ["16px", { "lineHeight": "1.6", "fontWeight": "400" }],
+                        "headline-md": ["24px", { "lineHeight": "1.3", "fontWeight": "600" }],
+                        "headline-lg": ["32px", { "lineHeight": "1.2", "fontWeight": "600" }],
+                        "label-lg": ["14px", { "lineHeight": "1.4", "letterSpacing": "0.05em", "fontWeight": "600" }],
+                        "label-sm": ["12px", { "lineHeight": "1.4", "letterSpacing": "0.02em", "fontWeight": "500" }],
+                        "display-lg-mobile": ["40px", { "lineHeight": "1.2", "letterSpacing": "-0.01em", "fontWeight": "700" }]
+                    }
+                },
+            },
+        }
+    </script>
+<style>
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+            display: inline-block;
+            line-height: 1;
+            text-transform: none;
+            letter-spacing: normal;
+            word-wrap: normal;
+            white-space: nowrap;
+            direction: ltr;
+        }
+
+        .bg-noise {
+            background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noiseFilter'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.65' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noiseFilter)'/%3E%3C/svg%3E");
+            opacity: 0.03;
+        }
+
+        .text-glow {
+            text-shadow: 0 0 15px rgba(247, 181, 43, 0.3);
+        }
+
+        @keyframes float {
+            0%, 100% { transform: translateY(0); }
+            50% { transform: translateY(-10px); }
+        }
+
+        .animate-float {
+            animation: float 6s ease-in-out infinite;
+        }
+
+        .cta-shine {
+            position: relative;
+            overflow: hidden;
+        }
+        .cta-shine::after {
+            content: '';
+            position: absolute;
+            top: -50%;
+            left: -50%;
+            width: 200%;
+            height: 200%;
+            background: linear-gradient(45deg, transparent, rgba(255,255,255,0.1), transparent);
+            transform: rotate(45deg);
+            transition: 0.5s;
+        }
+        .cta-shine:hover::after {
+            left: 120%;
+        }
+    </style>
+</head>
+<body class="bg-surface text-on-surface font-body-md overflow-x-hidden selection:bg-primary selection:text-on-primary">
+<!-- TopNavBar -->
+<nav class="fixed w-full top-0 left-0 z-50 bg-surface/80 backdrop-blur-md">
+<div class="flex justify-between items-center w-full px-margin-mobile md:px-margin-desktop py-4 max-w-container-max mx-auto">
+<div class="font-display-lg-mobile text-display-lg-mobile font-bold text-primary dark:text-primary">
+                Don Peñolinni
+            </div>
+
+<button class="bg-primary-container text-on-primary-container px-6 py-2 rounded-full font-label-lg text-label-lg active:scale-95 transition-transform hover:brightness-110">
+                Estamos por abrir
+            </button>
+</div>
+</nav>
+<!-- Main Content -->
+<main class="relative min-h-screen flex flex-col justify-center items-center pt-24 pb-16 px-margin-mobile md:px-margin-desktop bg-surface overflow-hidden">
+<!-- Background texture overlay -->
+<div class="absolute inset-0 bg-noise pointer-events-none"></div>
+<!-- Subtle radial glow -->
+<div class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[800px] h-[800px] bg-primary/5 rounded-full blur-[120px] pointer-events-none"></div>
+<section class="relative z-10 w-full max-w-4xl text-center flex flex-col items-center">
+<!-- Centerpiece Logo -->
+<div class="mb-12 w-full max-w-[320px] md:max-w-[480px] animate-float">
+<img alt="Logo Don Peñolinni" class="w-full h-auto drop-shadow-[0_20px_50px_rgba(0,0,0,0.5)]" src="https://lh3.googleusercontent.com/aida-public/AB6AXuClGNcTzthmC-VuBlvKkF04Fo-NsJ4nx1EU1F5ICEMXX8HC5Mfv-0LCoxC8iXpl8N4RSEaEJ3mEsix5S8RRPfH_vR_CFQEj7_yARTb5X8NW04OtiEMrIzNfbNHgJcQSB83UCYDb1sm7tuXdTJ4jO-LgQEDlDz8kiFRMSwTF87LoMoGogi7MBkWXJfOZfhCn9UXYHGmuY19jo8QDIBIazpglbKXsy6mhizQNEOvYygzYqTAvFTNRORJkboOhVEIoGgF0pOQG7kZytBru"/>
+</div>
+<!-- Headline -->
+<h1 class="font-display-lg-mobile md:font-display-lg text-display-lg-mobile md:text-display-lg text-on-surface mb-6 leading-tight tracking-tight">
+                Algo extraordinario <br class="hidden md:block"/> <span class="text-primary text-glow">está por venir</span>
+</h1>
+<!-- Subheadline -->
+<p class="font-body-lg text-body-lg text-on-surface-variant max-w-2xl mx-auto mb-10 opacity-90">
+                Estamos preparando la mejor experiencia artesanal para ti. Pronto descubrirás el secreto de nuestra masa y la pasión en cada detalle.
+            </p>
+
+<!-- Social/Status Indicators -->
+<div class="mt-16 flex gap-12 text-on-surface-variant/60 items-center justify-center">
+
+
+<div class="flex flex-col items-center gap-2">
+<span class="font-headline-md text-headline-md text-primary">100%</span>
+<span class="font-label-sm text-label-sm uppercase tracking-widest">Artesanal</span>
+</div>
+</div>
+</section>
+</main>
+<!-- Footer -->
+<footer class="bg-surface-container-lowest dark:bg-surface-container-lowest w-full">
+<div class="flex flex-col md:flex-row justify-between items-center w-full px-margin-mobile md:px-margin-desktop py-8 max-w-container-max mx-auto gap-6">
+<div class="flex flex-col items-center md:items-start gap-2">
+<span class="font-headline-md text-headline-md font-bold text-primary">Don Peñolinni</span>
+<p class="font-label-sm text-label-sm text-on-surface-variant">
+                    © 2026 Don Peñolinni Pizzería.
+                </p>
+</div>
+<div class="flex gap-6 items-center">
+<a class="font-label-sm text-label-sm text-on-surface-variant hover:text-secondary transition-colors duration-200 opacity-80 hover:opacity-100" href="#">Politicas de Privacidad</a>
+<a class="font-label-sm text-label-sm text-on-surface-variant hover:text-secondary transition-colors duration-200 opacity-80 hover:opacity-100" href="#">Términos de Servicio</a>
+<a class="font-label-sm text-label-sm text-on-surface-variant hover:text-secondary transition-colors duration-200 opacity-80 hover:opacity-100" href="#">Contacto</a>
+</div>
+</div>
+</footer>
+</body></html>
